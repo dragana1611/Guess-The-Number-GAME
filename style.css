@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Carter One', cursive;
+  color: #232326;
+  background-color: #b081b7;
+}
+
+/* LAYOUT */
+header {
+  position: relative;
+  height: 35vh;
+  border-bottom: 7px solid #7c1352;
+}
+
+main {
+  height: 65vh;
+  color: #232326;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.left {
+  width: 52rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.right {
+  width: 52rem;
+  font-size: 2.5rem;
+}
+
+/* ELEMENTS STYLE */
+h1 {
+  padding: 5px;
+  font-size: 4rem;
+  text-align: center;
+  text-shadow: 1px 1px 1px #fed6f8;
+  position: absolute;
+  width: 100%;
+  top: 58%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.number {
+  background: #fed6f8;
+  color: #232326;
+  font-size: 6rem;
+  width: 15rem;
+  height: 80px;
+  padding-bottom: 20px;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  border-radius: 4px;
+  box-shadow: 2px 2px 2px #2e0227;
+}
+
+.between {
+  font-size: 1.6rem;
+  position: absolute;
+  top: 2rem;
+  right: 2.5rem;
+}
+
+.again {
+  position: absolute;
+  top: 2rem;
+  left: 2rem;
+}
+
+.guess {
+  background: none;
+  border: 4px solid #232326;
+  border-radius: 15px;
+  font-family: inherit;
+  color: #232326;
+  font-size: 5rem;
+  padding: 2.5rem;
+  width: 25rem;
+  text-align: center;
+  display: block;
+  margin-bottom: 3rem;
+}
+
+.btn {
+  border: none;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px #2e0227;
+  background-color: #fed6f8;
+  color: #232326;
+  font-size: 2.3rem;
+  font-family: inherit;
+  padding: 2rem 3rem;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: rgb(174, 211, 202);
+}
+
+.message {
+  margin-bottom: 8rem;
+  height: 3rem;
+  text-shadow: 1px 1px 1px #fed6f8;
+}
+
+.label-score {
+  margin-bottom: 2rem;
+  text-shadow: 1px 1px 1px #fed6f8;
+}
+.label-highscore {
+  text-shadow: 1px 1px 1px #fed6f8;
+}

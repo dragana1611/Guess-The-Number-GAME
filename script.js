@@ -17,7 +17,8 @@ document.querySelector('.check').addEventListener('click', function () {
   } else if (guess === secretNumber) {
     displayMessage('🎉Correct Number!');
     number.textContent = secretNumber;
-    body.style.backgroundColor = '#A8DBA8';
+    body.style.backgroundImage = 'none';
+    body.style.backgroundColor = '#EEF9DC';
     number.style.width = '30rem';
 
     if (score > highscore) {

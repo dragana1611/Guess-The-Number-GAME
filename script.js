@@ -44,6 +44,6 @@ document.querySelector('.again').addEventListener('click', function () {
   score1.textContent = score;
   number.textContent = '?';
   guess1.value = '';
-  body.style.backgroundColor = '#b081b7';
+  body.style.backgroundImage = 'linear-gradient(135deg, #ada7ff, #6358ff)';
   number.style.width = '15rem';
 });
